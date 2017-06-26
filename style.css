@@ -1,0 +1,21 @@
+/*
+    Theme Name: JHU HSA - with calendar
+    Theme URI: http://hsa-dev.jhu.edu/
+    Description: This is for the sites that has a calendar.
+    Author: Aaron Madhavan/MStoner
+    Template: jhu-hsa-theme
+    Version: 0.1
+    */
+
+.ai1ec-agenda-view .ai1ec-event-description ul li::before{position:relative;
+top:-.1rem;
+padding-right:1rem;
+}
+.timely ul.ai1ec-nav li.ai1ec-dropdown::before, .timely .ai1ec-modal-dialog ul li::before{list-style:none!important;content:none!important;}
+
+.timely .ai1ec-nav > li::before {
+    content: none !important;
+   
+}
+.timely .ai1ec-modal-dialog ul, .timely .ai1ec-modal-dialog p{float:left;}
+.timely  a.ailec-calendar-link{display:none!important;}
